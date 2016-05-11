@@ -6,3 +6,5 @@ Just look for the SecureText class in main java folder. All the instructions are
 Explaination of the whole encryption and decryption process taking example of app to server communication with notes and flow diagrams is attached.
 
 Happy securing!
+
+*was having some problems on uploading the library on Maven central as the process is not that easy. Will be doing that soon.
