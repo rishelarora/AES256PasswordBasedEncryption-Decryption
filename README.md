@@ -1,12 +1,27 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AES256PasswordBasedEncryption--Decryption-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3894)
 
-
 AES256PasswordBasedEncryption-Decryption
 A library that lets you use the AES 256 password based encryption/decryption for your android application in the easiest manner.
 
 Example Android application on the play store:
 https://play.google.com/store/apps/details?id=aes.secureencryptdecrypt
 
+To get this project into your build:
+
+1. Add the specific repository to your build file:
+```
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
+```
+2. Add the dependency in your build file
+```
+dependencies {
+    compile 'com.github.rishelarora:AES256PasswordBasedEncryption-Decryption:717dccc0ec'
+}
+```
 USAGE:
 
 Initialise a SecureMyText object with following syntax
